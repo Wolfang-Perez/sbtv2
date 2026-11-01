@@ -5,6 +5,6 @@
   "packageType": "app",
   "appName": "SBTV2",
   "appPath": "app/c2.html",
-  "serviceFile": "c2svc.js",
+  "serviceFile": "c2b.js",
   "keys": []
 }
