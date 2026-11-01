@@ -1,0 +1,10 @@
+{
+  "name": "sbtv2",
+  "version": "2.0.0",
+  "description": "SBTV2",
+  "packageType": "app",
+  "appName": "SBTV2",
+  "appPath": "app/c2.html",
+  "serviceFile": "c2svc.js",
+  "keys": []
+}
