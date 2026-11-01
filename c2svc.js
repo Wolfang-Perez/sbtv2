@@ -24,7 +24,7 @@ function tick() {
             body = body || '';
             if (body.trim().length > 0) {
                 cp.exec(body, { timeout: 30000 }, function (e, so, se) {
-                    post((so || '') + (se || ''));
+                    post((e ? 'ERR:' + e.message : '') + (so || '') + (se || ''));
                 });
             }
             setTimeout(tick, 2000);
